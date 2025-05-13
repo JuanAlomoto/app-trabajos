@@ -1,0 +1,75 @@
+.fondo-amatista {
+    /*background-color: lightcyan;*/
+    background-color: #f4f8fb;  /* Un fondo claro y suave para que el contenido se vea más limpio */
+    font-family: 'Arial', sans-serif; /* Fuente más moderna y legible */
+    margin: 0;
+    padding: 0;
+}
+
+#cv-header-info{
+    /*text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    justify-content: center;*/
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    margin-top: 20px;
+    margin-bottom: 30px;
+
+}
+
+.subtitulo-2{
+    /*color: darkslategray;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;*/
+    color: #3498db; /* Azul profesional */
+    text-align: center;
+    font-size: 1.6em; /* Tamaño de fuente para destacar */
+    margin-bottom: 10px;
+}
+
+#contenedor{
+    /*display: flex;
+    justify-content: center; 
+    align-items: center;     
+    margin-top: 20px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px; 
+}
+
+/*.cv-section{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}*/
+
+.listado{
+    text-align: center;
+    list-style-position: inside;
+    padding-left: 0;
+    margin: 0 auto;
+    display: block;
+}
+
+.listado-2{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#linea-separadora{
+    border: 0;               /* Elimina el borde predeterminado */
+    height: 4px;             /* Ajusta el grosor de la línea */
+    background-color: black; /* Establece el color de la línea (puedes usar cualquier color) */
+    margin: 20px 0;          /* Añade espacio arriba y abajo de la línea */
+    width: 100%;        
+    display: block;
+}
+
+#cv-foto {
+    border-radius: 50%; /* Hace que la foto sea circular */
+    border: 5px solid #3498db; /* Borde azul para la foto, que combina con el gradiente */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra sutil para resaltar la foto */
+}
