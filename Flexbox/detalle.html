@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Detalle del Producto</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800 min-h-screen flex flex-col">
+
+    <header class="bg-white shadow py-6">
+        <div class="max-w-7xl mx-auto px-6 flex justify-between items-center">
+            <h1 class="text-3xl font-bold">Detalle del Producto</h1>
+            <a href="index.html" class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition-colors duration-300">
+                Volver a Productos
+            </a>
+        </div>
+    </header>
+
+    <main class="max-w-4xl mx-auto px-6 py-10 flex-grow">
+        <div id="detalle-producto" class="bg-white rounded-lg shadow-md p-8 flex flex-col md:flex-row items-center md:items-start gap-8">
+            <p class="text-center text-gray-500">Cargando detalle del producto...</p>
+        </div>
+    </main>
+
+    <footer class="bg-white border-t py-6 mt-auto">
+        <p class="text-center text-sm text-gray-500">&copy; 2025 Mi Tienda</p>
+    </footer>
+
+    <script src="detalleProducto.js"></script>
+</body>
+</html>
